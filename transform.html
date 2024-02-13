@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+</head>
+<style>
+    .box{
+        display: flex;
+    }
+    button{
+        height: 80px;
+        width: 250px;
+        border: 5px solid black;
+        margin: auto;
+        margin-top: 200px;
+        transition: all 2s linear;
+        color: black;
+        text-align: center;
+        font-size: 45px;
+        line-height: 80px;
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(240, 240, 132), rgb(199, 47, 199), rgb(104, 226, 104))
+     
+
+    }
+    .box1:hover{
+        transform: skew(50deg);
+        background-color: brown;
+        border: 0px solid violet
+        
+    }
+
+    .box2:hover{
+        transform:scale(2);
+        background-color: aquamarine;
+        border: 0px solid violet;
+        background-color: darkcyan;
+        }
+    .box3:hover{
+        transform: skewy(20deg);
+        border: 0px solid violet;
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <div class="box">
+    <button class="box1">HOVER </button>
+    <button class="box2">HOVER </button>
+    <button class="box3">HOVER </button>
+</div>
+</body>
+</html>
